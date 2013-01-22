@@ -3,13 +3,29 @@
 div.parseResult {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	background-color:#000000;
 	padding:10px;
-	color:#FF0000;
 	width:450px;
+	border-width:3px;
+	border-style:solid;
+	margin:10px;
+}
+
+div.pr_success {
+	background-color:#8cd17a;
+	border-color:#374234;
+}
+
+div.pr_failure {
+	background-color:#bd2124;
+	border-color:#7e0306;
 }
 
 p.pr_title {
 	margin-left:auto;
 	margin-right:auto;
+}
+
+div.pr_unknown_word {
+	
+
 }
