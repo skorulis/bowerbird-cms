@@ -43,5 +43,12 @@ div.pr_unknown_word {
 
 input.ps_term {
 	margin:5px;
-	width:200px;
+	width:300px;
+}
+
+a.ps_addButton {
+	cursor: pointer;
+	margin-left:50px;
+	padding: 3px;
+	float:right;
 }

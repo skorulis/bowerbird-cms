@@ -1,3 +1,4 @@
+bb = bb || {};
 bb.ps = {};
 
 bb.ps.addTerm = function(item) {
