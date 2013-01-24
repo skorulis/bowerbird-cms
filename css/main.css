@@ -41,14 +41,28 @@ div.pr_unknown_word {
 	
 }
 
+p.cell_title {
+	margin:20px;
+	padding:20px;
+}
+
 input.ps_term {
 	margin:5px;
 	width:300px;
 }
 
+ul.ps_term_list {
+	padding:0;
+	list-style-type: none;
+}
+
+ul.ps_term_list li {
+	padding:5px;
+}
+
 a.ps_addButton {
 	cursor: pointer;
-	margin-left:50px;
+
 	padding: 3px;
 	float:right;
 }

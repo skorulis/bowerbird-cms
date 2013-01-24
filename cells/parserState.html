@@ -16,11 +16,14 @@
 <div class="parseResult">
 	<form>
 		<input type="text" class="ps_" /><br/>
-
-		
-		<p class="cell_title">Terms<br/>
-			<input type="text" class="ps_term" /><a class="ps_addButton ui-state-default ui-corner-all" onclick="bb.ps.removeTerm(this)"><span class="ui-icon ui-icon-circle-minus"></span></a><br/>
-			<a class="ps_addButton ui-state-default ui-corner-all" onclick="bb.ps.addTerm(this)"><span class="ui-icon ui-icon-circle-plus"></span></a>
+	
+			
+			<ul class="ps_term_list">
+				<li><p style="display:inline;margin:5px;">Terms</p><a class="ps_addButton ui-state-default ui-corner-all" onclick="bb.ps.addTerm(this)"><span class="ui-icon ui-icon-circle-plus"></span></a></li>
+				<li><input type="text" class="ps_term" /><a class="ps_addButton ui-state-default ui-corner-all" onclick="bb.ps.removeTerm(this)"><span class="ui-icon ui-icon-circle-minus"></span></a></li>
+				<li><input type="text" class="ps_term" /><a class="ps_addButton ui-state-default ui-corner-all" onclick="bb.ps.removeTerm(this)"><span class="ui-icon ui-icon-circle-minus"></span></a></li>
+			<ul>
+			
 		</p>
 
 	</form>
